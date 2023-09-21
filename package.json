@@ -1,24 +1,24 @@
 {
-  "name": "user-list",
+  "name": "tech-blog",
   "version": "1.0.0",
-  "description": "With a team, we have to conceive and execute a design of Interactive Full-Stack Application tWith your team. In creating our first collaborative full-stack application, we've combined a robust back end—with servers, databases, advanced APIs, and user authentication—to an intuitive front end. We are continue building on the agile development methodologies we've used throughout this course, like storing project code in GitHub, managing your work with a project management tool, and implementing feature and bug fixes using the Git branch workflow and pull requests.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
-    "connect-session-sequelize": "^7.1.7",
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
-    "ger": "^0.0.99",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
   }

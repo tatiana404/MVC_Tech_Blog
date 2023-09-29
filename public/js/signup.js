@@ -15,7 +15,7 @@ const signupFormHandler = async function(event) {
   if (response.ok) {
     document.location.replace('/mypage');
   } else {
-    alert('Failed to sign up');
+    alert('Sorry, you have failed to sign up');
   }
 };
 

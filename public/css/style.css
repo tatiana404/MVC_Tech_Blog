@@ -219,18 +219,6 @@ input {
   border-radius: rgba(4, 4, 59, 0.725);;
 }
 
-/* .min-100-vh {
-  min-height: 100vh;
-}
-
-.min-100-vw {
-  min-width: 100vw;
-}
-
-
-.text-uppercase {
-  text-transform: uppercase;
-} */
 
 .flex-row {
   display: flex;
@@ -261,28 +249,8 @@ input {
   justify-content: space-around;
 }
 
-.justify-flex-start {
-  justify-content: flex-start;
-}
-
-.justify-flex-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
-}
-
-.align-stretch {
-  align-items: stretch;
-}
-
-.align-end {
-  align-items: flex-end;
-}
-
-.align-center {
-  align-items: center;
 }
 
 .col-auto {
